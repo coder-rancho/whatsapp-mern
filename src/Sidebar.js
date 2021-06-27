@@ -3,6 +3,7 @@ import "./Sidebar.css"
 import DonutLargeIcon from '@material-ui/icons/DonutLarge';
 import ChatIcon from '@material-ui/icons/Chat'
 import MoreVertIcon from '@material-ui/icons/MoreVert'
+import { SearchOutlined } from '@material-ui/icons';
 import { IconButton, Avatar } from '@material-ui/core'
 
 
@@ -21,6 +22,12 @@ function Sidebar() {
                     <IconButton>
                         <MoreVertIcon />
                     </IconButton>
+                </div>
+            </div>
+            <div className="sidebar__search">
+                <div className="sidebar__searchContainer">
+                    <SearchOutlined />
+                    <input type="text" />
                 </div>
             </div>
         </div>

@@ -8,6 +8,7 @@ a whatsapp clone using mern stack
   + **Pusher** : Make database realtime. 
   + **socket.io** : implement two way connection to client-server
   + **firebase** : authentication and hosting
+  + **Material-UI** : Prebuilt React components (including icons).
 
 1. #### create react app ####
   `javascript
@@ -23,12 +24,12 @@ a whatsapp clone using mern stack
   + require for authentication
   + create **/src/firebase.js** >> paste (config code)
 
-5. ### Created app_body
+5. #### Created app_body
   + create **/src/Sidebar.js** component & **./src/Sidebar.css**
   + create **/src/Chat.js** component & **/src/Chat.css**
   + import into **App.js** and edit **App.css**
 
-6. ### Build sidebar__header using material-ui
+6. #### Build sidebar__header using material-ui
   + ~~` npm i @material-ui/core `~~ == currently material-ui (version 4) don't support React17(latest)
       + temporary(unstable) solution ` npm install --save --legacy-peer-deps @material-ui/core `
   + ` npm i @material-ui/icons ` == to import icons as react components (search on material-ui)
@@ -39,4 +40,11 @@ a whatsapp clone using mern stack
           + `.sidebar__headerRight`
           + `.sidebar__headerRight > .MuiSvgIcon-root` [.MuiSvgIcon-root]( https://material-ui.com/api/svg-icon/#css "Default class given to material-ui icons")
 
+7. #### Build sidebar__search component
+  + sidebar__search > sidebar__searchContainer > (SearchOutlined + input)
+  + Style following components in sidebar.css
+      + `.sidebar__search`
+      + `.sidebar__searchContainer`
+      + `.sidebar__searchContainer > .MuiSvgIcon-root`
+      + `.sidebar__searchContainer > input`
 
