@@ -10,6 +10,7 @@ a whatsapp clone using mern stack
   + **firebase** : authentication and hosting
   + **Material-UI** : Prebuilt React components (including icons).
 
+## Frontend Using React
 1. #### create react app ####
   `javascript
   npx create-react-app whatsapp-mern
