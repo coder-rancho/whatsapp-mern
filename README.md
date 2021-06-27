@@ -10,9 +10,9 @@ a whatsapp clone using mern stack
   + **firebase** : authentication and hosting
 
 1. #### create react app ####
-  ```javascript
+  `javascript
   npx create-react-app whatsapp-mern
-  ```
+  `
 2. #### Setup *firebase* 17:00 - 19:00 
   + frontend deployment (backend will be deployed on heroku)
   
@@ -27,3 +27,16 @@ a whatsapp clone using mern stack
   + create **/src/Sidebar.js** component & **./src/Sidebar.css**
   + create **/src/Chat.js** component & **/src/Chat.css**
   + import into **App.js** and edit **App.css**
+
+6. ### Build sidebar__header using material-ui
+  + ~~` npm i @material-ui/core `~~ == currently material-ui (version 4) don't support React17(latest)
+      + temporary(unstable) solution ` npm install --save --legacy-peer-deps @material-ui/core `
+  + ` npm i @material-ui/icons ` == to import icons as react components (search on material-ui)
+  + finish sidebar__header
+      + sidebar__header > Avatar + sidebar__headerRight > ((IconButton > DonutLargeIcon) + (IconButton > ChatIcon) + (IconButton > MoreVertIcon))
+      + add following styles in Sidebar.css
+          + `.sidebar__header`
+          + `.sidebar__headerRight`
+          + `.sidebar__headerRight > .MuiSvgIcon-root` [.MuiSvgIcon-root]( https://material-ui.com/api/svg-icon/#css "Default class given to material-ui icons")
+
+
