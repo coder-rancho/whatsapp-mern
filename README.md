@@ -21,4 +21,9 @@ a whatsapp clone using mern stack
 4. #### get config from firebase 21:30 - 26:25 
   + gear-icon(top left) >> project settings >> config >> copy everything
   + require for authentication
-  + create **./src/firebase.js** >> paste (config code)
+  + create **/src/firebase.js** >> paste (config code)
+
+5. ### Created app_body
+  + create **/src/Sidebar.js** component & **./src/Sidebar.css**
+  + create **/src/Chat.js** component & **/src/Chat.css**
+  + import into **App.js** and edit **App.css**
