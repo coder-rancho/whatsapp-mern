@@ -17,3 +17,8 @@ a whatsapp clone using mern stack
   + frontend deployment (backend will be deployed on heroku)
   
 3. #### clean up react app 19:40 - 21:30
+
+4. #### get config from firebase 21:30 - 26:25 
+  + gear-icon(top left) >> project settings >> config >> copy everything
+  + require for authentication
+  + create **./src/firebase.js** >> paste (config code)
