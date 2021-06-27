@@ -59,3 +59,17 @@ a whatsapp clone using mern stack
       + `.sidebarChat__info > h2`
       + `.sidebarChat__info`
       + `.sidebar__chats (inside  ~~SidebarChar.css~~ Sidebar.css)
+
+9. #### Build Chat component
+  + **chat__header** 
+      + Avatar + (div.chat__headerInfo > h3 + p) + div.chat__headerRight > IconButtons*3 > (mui-icons )
+  + **chat__body**
+      + (p.chat__message > span.chat__name + text + span.chat__timestamp) + p.chat__message, chat__receiver > span.chat__name + text + span.chat__timestamp
+  + **chat__footer** 
+      + InsertEmoticon + form > input + button + Mic
+
+  + Add following styles
+    + `.chat`
+    + `.chat__header` & `.char__headerInfo
+    + `.chat__body` & `.chat__message` & `.chat__receiver` & `.chat__timeStamp` & `chat__name`;
+    + `chat__footer` & `.chat__footer > form` & `.chat__footer > form > input` & `.chat__footer > form > button`
