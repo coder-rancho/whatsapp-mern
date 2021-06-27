@@ -48,3 +48,14 @@ a whatsapp clone using mern stack
       + `.sidebar__searchContainer > .MuiSvgIcon-root`
       + `.sidebar__searchContainer > input`
 
+8. #### Build sidebarChats
+  + create **/src/SidebarChat.js** component & **/src/SidebarChat.css**
+      + div.sidebarChat > Avatar + div.sidebarChat__info > h2 + p
+  + In sidebar.js 
+      + div.sidebarChat > SidebarChat*3
+  + Add following styles in SidebarChat.css
+      + `.sidebarChat`
+      + `.sidebarChat:hover`
+      + `.sidebarChat__info > h2`
+      + `.sidebarChat__info`
+      + `.sidebar__chats (inside  ~~SidebarChar.css~~ Sidebar.css)
