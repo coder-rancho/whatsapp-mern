@@ -74,3 +74,7 @@ a whatsapp clone using mern stack
     + `.chat__header` & `.char__headerInfo
     + `.chat__body` & `.chat__message` & `.chat__receiver` & `.chat__timeStamp` & `chat__name`;
     + `chat__footer` & `.chat__footer > form` & `.chat__footer > form > input` & `.chat__footer > form > button`
+
+
+
+## Backend
