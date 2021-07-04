@@ -81,3 +81,13 @@ a whatsapp clone using mern stack
   + Sync frontend with Backend (require pusher-js)
     + Incorporated pusher listener into app (require useEffect)
     + test using postman by insert data
+  + Fetch messages from Database
+    + create **./axios.js**  (require axios)
+    > axios connect our frontend server to backend server
+    + setup app.js to fetch messages
+      + create live array (require useState)
+      + fetch messages into array from DB on load using *axios*
+      + fetch newMessage into array using *pusher*, include *messges* dependency of useState.
+
+
+    
