@@ -75,6 +75,9 @@ a whatsapp clone using mern stack
     + `.chat__body` & `.chat__message` & `.chat__receiver` & `.chat__timeStamp` & `chat__name`;
     + `chat__footer` & `.chat__footer > form` & `.chat__footer > form > input` & `.chat__footer > form > button`
 
+  ## Backend
+  + create a directory **whatsapp-backend** as sibling directory to *whatsapp-mern* directory
+  + for further details refer [coder-rancho/whatsapp-bakckend](https://github.com/coder-rancho/whatsapp-backend.git) repository
   + Sync frontend with Backend (require pusher-js)
     + Incorporated pusher listener into app (require useEffect)
     + test using postman by insert data
