@@ -87,7 +87,16 @@ a whatsapp clone using mern stack
     + setup app.js to fetch messages
       + create live array (require useState)
       + fetch messages into array from DB on load using *axios*
-      + fetch newMessage into array using *pusher*, include *messges* dependency of useState.
+      + fetch newMessage into array using *pusher*, include *messages* dependency of useState.
+  
+10. #### complete the chat body
+  + pass *messages* array as props to `<Chat />` component
+  + render messages using `array.map()` function
+  + append `chat__receiver` class if `message.receive === true`
 
-
-    
+11. #### complete the 'enter to send' functionality
+  + implement live input in footer (require useState)
+  + submit button trigger sendMessage func which 
+    + prevent default refresh (it won't make `input === ""`)
+    + post message to */messages/new* (require axios)
+    + `setInput('');
